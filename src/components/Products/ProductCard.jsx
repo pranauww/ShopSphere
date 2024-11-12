@@ -3,6 +3,7 @@ import React from 'react';
 import './ProductCard.css';
 import star from '../../assets/white-star.png';
 import basket from '../../assets/basket.png';
+import { NavLink } from 'react-router-dom';
 
 const ProductCard = ({ id, image, price, title, rating, ratingCounts, stock }) => {
   return (
